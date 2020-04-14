@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMA4F5.0A
+D 5V TVS Diode; 400W; Unidirectional; -55°C to +175°C
+K Diode TVS
+$ENDCMP
+#
+#End Doc Library

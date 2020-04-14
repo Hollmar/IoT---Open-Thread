@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECS-160-8-30Q-VY
+D Crystal; 16MHz; 8pF Load Capacitance; +-30ppm@25°C; -40°C to 150°C
+K Crystal 16MHz
+$ENDCMP
+#
+#End Doc Library

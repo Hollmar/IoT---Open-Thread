@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# ECS-160-8-30Q-VY
+#
+DEF ECS-160-8-30Q-VY Q 0 40 N N 1 F N
+F0 "Q" 0 100 50 H V C CNN
+F1 "ECS-160-8-30Q-VY" 0 -300 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "16MHz" 0 -100 50 H V C CNN "Frequency"
+F5 "ECS" 0 -200 50 H I C CNN "MFR"
+DRAW
+S -25 50 25 -50 0 1 0 N
+P 2 0 1 0 -50 0 -40 0 N
+P 2 0 1 0 -40 30 -40 -30 N
+P 2 0 1 0 40 30 40 -30 N
+P 2 0 1 0 50 0 40 0 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 2 2 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

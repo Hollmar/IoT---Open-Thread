@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 599-0110-007F
+D Standard LED; Red; 0805
+K LED Red
+$ENDCMP
+#
+$CMP 599-0181-007F
+D Standard LED; Green; 0805
+K LED Green
+$ENDCMP
+#
+#End Doc Library

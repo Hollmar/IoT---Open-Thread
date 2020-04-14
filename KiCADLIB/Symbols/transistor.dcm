@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC847B,215
+D NPN Bipolar Transistor; 45V; 100mA; 250mW; -65°C to +150°C
+K Bipolar-Transistor NPN
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP2139AK-3.3
+D Fixed LDO Regulator; 3.3V; 250mA; -40°C to 85°C
+K Linear LDO Fixed
+$ENDCMP
+#
+#End Doc Library

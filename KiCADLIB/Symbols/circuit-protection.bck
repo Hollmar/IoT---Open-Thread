@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PRTR5V0U2F
+D ESD-Supressor; Ultra Low Capacitance; -40°C to +85°C
+K ESD-Suppressor
+$ENDCMP
+#
+$CMP SMA4F5.0A
+D 5V TVS Diode; 400W; Unidirectional; -55°C to +175°C
+K Diode TVS
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FT230XS
+D USB Interface IC; 2.97V to 5.5V; -40°C to 85°C
+K Interface USB UART
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RC0402FR-0710KL
+D Thick Film Resistor; 10k; 1%; 50V; 0.0625W
+K Resistor
+$ENDCMP
+#
+$CMP RC0402FR-072KL
+D Thick Film Resistor; 2k; 1%; 50V; 0.0625W
+K Resistor
+$ENDCMP
+#
+$CMP RC0402FR-0733RL
+D Thick Film Resistor; 33R; 1%; 50V; 0.0625W
+K Resistor
+$ENDCMP
+#
+#End Doc Library

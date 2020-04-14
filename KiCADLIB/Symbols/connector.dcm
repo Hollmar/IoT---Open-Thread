@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 629105150921
+D Micro USB Type AB; Horizontal; -40°C to 85°C
+K Connector USB Micro
+$ENDCMP
+#
+$CMP FTSH-105-01-F-DV-K
+D 10pos 1.27mm Connector; Key Shroud;
+K Connector
+$ENDCMP
+#
+#End Doc Library

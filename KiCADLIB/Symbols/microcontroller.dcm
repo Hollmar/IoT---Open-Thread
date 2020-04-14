@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F030F4P6
+D Cortex-M0 Microcontroller; max. 48MHz; 16kB Flash; 4kB RAM; 2.4V to 3.6V; -40°C to 85°C
+K Microcontroller Cortex-M0 STM32F0
+$ENDCMP
+#
+#End Doc Library

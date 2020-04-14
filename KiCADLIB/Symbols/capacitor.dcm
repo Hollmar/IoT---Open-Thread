@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CL05B104KO5NNNC
+D Ceramic Capacitor; 100nF; X7R
+K Capacitor Ceramic
+$ENDCMP
+#
+$CMP CL05C120JB5NNNC
+D Ceramic Capacitor; 12p; C0G
+K Capacitor Ceramic
+$ENDCMP
+#
+$CMP CL05C330JB5NNNC
+D Ceramic Capacitor; 33p; C0G
+K Capacitor Ceramic
+$ENDCMP
+#
+$CMP CL21B106KOQNNNE
+D Ceramic Capacitor; 10uF; X7R
+K Capacitor Ceramic
+$ENDCMP
+#
+#End Doc Library

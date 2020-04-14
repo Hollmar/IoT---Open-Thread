@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP VEML6030
+D Ambient Light Sensor; I2C Interface; 2.5V to 3.6V; -25°C to 85°C
+K Sensor Ambient-Light
+$ENDCMP
+#
+$CMP VL53L0X
+D Proximity (TOF) Sensor; I2C Interface; 2.6V to 3.5V; -20°C to 75°C
+K Sensor Proximity
+$ENDCMP
+#
+#End Doc Library

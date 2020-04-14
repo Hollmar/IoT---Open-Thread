@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BC847B,215
+#
+DEF BC847B,215 T 0 40 N N 1 F N
+F0 "T" 50 50 50 H V L CNN
+F1 "BC847B,215" 50 -50 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Nexperia" 50 -150 50 H I L CNN "MFR"
+DRAW
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 0 -75 -25 -75 -75 N
+P 2 0 1 0 -75 25 -75 75 N
+P 2 0 1 0 -16 -64 -34 -32 N
+P 2 0 1 0 0 -100 0 -75 N
+P 2 0 1 0 0 100 0 75 N
+P 3 0 1 0 -34 -32 -54 -60 -16 -64 F
+P 5 0 1 0 0 75 -75 25 -75 -25 -44 -46 0 -75 N
+X B 1 0 150 50 D 50 50 1 1 P
+X E 2 -150 0 50 R 50 50 1 1 P
+X C 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
