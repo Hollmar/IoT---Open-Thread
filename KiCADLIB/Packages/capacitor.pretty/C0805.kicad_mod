@@ -1,4 +1,4 @@
-(module C0805 (layer F.Cu) (tedit 5E92F376)
+(module C0805 (layer F.Cu) (tedit 5E99C3DE)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
@@ -11,7 +11,7 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.05))
   (pad 1 smd rect (at -0.95 0) (size 0.9 1.3) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.05) (solder_paste_margin -0.05))
-  (model /media/gabriel/Daten/Arbeitsplatz/Projektarbeit/KiCADLIB/Packages/Packages3D/C0805.step
+  (model ${PROJEKTARBEIT}/Component/3D_Model/Electronic_Part/C0805.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

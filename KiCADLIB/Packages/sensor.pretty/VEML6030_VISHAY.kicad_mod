@@ -1,4 +1,4 @@
-(module VEML6030_VISHAY (layer F.Cu) (tedit 5E9198B2)
+(module VEML6030_VISHAY (layer F.Cu) (tedit 5E99C4BC)
   (solder_mask_margin 0.05)
   (solder_paste_margin -0.05)
   (fp_text reference REF** (at 0 0) (layer F.Fab)
@@ -37,7 +37,7 @@
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (zone_connect 0))
   (pad 4 smd rect (at 0.875 0.65) (size 0.55 0.3) (layers F.Cu F.Paste F.Mask)
     (solder_mask_margin 0.05) (solder_paste_margin -0.05) (zone_connect 0))
-  (model /media/gabriel/Daten/Arbeitsplatz/Projektarbeit/KiCADLIB/Packages/Packages3D/VEML6030_VISHAY.stp
+  (model ${PROJEKTARBEIT}/Component/3D_Model/Electronic_Part/VEML6030_VISHAY.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
