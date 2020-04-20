@@ -12,6 +12,7 @@ F4 "16V" 10 -110 39 H V L TNN "Voltage"
 F5 "X7R" -10 -30 31 V V R BNN "Material"
 F6 "0402" -10 30 31 V V L BNN "Package"
 F7 "100n" 10 -40 50 H V L TNN "Capacitance"
+F8 "Samsung Electro Mechanics" 0 0 50 H I C CNN "MFR"
 DRAW
 P 2 0 1 16 -60 -20 60 -20 N
 P 2 0 1 0 0 -100 0 -20 N
@@ -33,6 +34,7 @@ F4 "50V" 10 -110 39 H V L TNN "Voltage"
 F5 "C0G" -10 -30 31 V V R BNN "Material"
 F6 "0402" -10 30 31 V V L BNN "Package"
 F7 "12p" 10 -40 50 H V L TNN "Capacitance"
+F8 "Samsung Electro Mechanics" 0 0 50 H I C CNN "MFR"
 DRAW
 P 2 0 1 16 -60 -20 60 -20 N
 P 2 0 1 0 0 -100 0 -20 N
@@ -54,6 +56,7 @@ F4 "50V" 10 -110 39 H V L TNN "Voltage"
 F5 "C0G" -10 -30 31 V V R BNN "Material"
 F6 "0402" -10 30 31 V V L BNN "Package"
 F7 "33p" 10 -40 50 H V L TNN "Capacitance"
+F8 "Samsung Electro Mechanics" 0 0 50 H I C CNN "MFR"
 DRAW
 P 2 0 1 16 -60 -20 60 -20 N
 P 2 0 1 0 0 -100 0 -20 N
@@ -75,6 +78,7 @@ F4 "16V" 10 -110 39 H V L TNN "Voltage"
 F5 "X7R" -10 -30 31 V V R BNN "Material"
 F6 "0805" -10 30 31 V V L BNN "Package"
 F7 "10u" 10 -40 50 H V L TNN "Capacitance"
+F8 "Samsung Electro Mechanics" 0 0 50 H I C CNN "MFR"
 DRAW
 P 2 0 1 16 -60 -20 60 -20 N
 P 2 0 1 0 0 -100 0 -20 N

@@ -212,6 +212,7 @@ F 4 "16V" H 1510 3340 39  0000 L TNN "Voltage"
 F 5 "X7R" V 1490 3420 31  0000 R BNN "Material"
 F 6 "0805" V 1490 3480 31  0000 L BNN "Package"
 F 7 "10u" H 1510 3410 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    1500 3450
 	1    0    0    -1  
 $EndComp
@@ -259,6 +260,7 @@ F 4 "16V" H 1810 1090 39  0000 L TNN "Voltage"
 F 5 "X7R" V 1790 1170 31  0000 R BNN "Material"
 F 6 "0805" V 1790 1230 31  0000 L BNN "Package"
 F 7 "10u" H 1810 1160 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    1800 1200
 	1    0    0    -1  
 $EndComp
@@ -274,6 +276,7 @@ F 4 "16V" H 2060 1090 39  0000 L TNN "Voltage"
 F 5 "X7R" V 2040 1170 31  0000 R BNN "Material"
 F 6 "0402" V 2040 1230 31  0000 L BNN "Package"
 F 7 "100n" H 2060 1160 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    2050 1200
 	1    0    0    -1  
 $EndComp
@@ -331,6 +334,7 @@ F 4 "16V" H 2810 1090 39  0000 L TNN "Voltage"
 F 5 "X7R" V 2790 1170 31  0000 R BNN "Material"
 F 6 "0402" V 2790 1230 31  0000 L BNN "Package"
 F 7 "100n" H 2810 1160 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    2800 1200
 	1    0    0    -1  
 $EndComp
@@ -375,6 +379,7 @@ F 4 "16V" H 1760 3340 39  0000 L TNN "Voltage"
 F 5 "X7R" V 1740 3420 31  0000 R BNN "Material"
 F 6 "0402" V 1740 3480 31  0000 L BNN "Package"
 F 7 "100n" H 1760 3410 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    1750 3450
 	1    0    0    -1  
 $EndComp
@@ -478,6 +483,7 @@ F 4 "16V" H 2060 3440 39  0000 L TNN "Voltage"
 F 5 "X7R" V 2040 3520 31  0000 R BNN "Material"
 F 6 "0402" V 2040 3580 31  0000 L BNN "Package"
 F 7 "100n" H 2060 3510 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    2050 3550
 	1    0    0    -1  
 $EndComp
@@ -512,6 +518,7 @@ F 4 "50V" H 4160 4040 39  0000 L TNN "Voltage"
 F 5 "C0G" V 4140 4120 31  0000 R BNN "Material"
 F 6 "0402" V 4140 4180 31  0000 L BNN "Package"
 F 7 "33p" H 4160 4110 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    4150 4150
 	1    0    0    -1  
 $EndComp
@@ -533,6 +540,7 @@ F 4 "50V" H 4410 4040 39  0000 L TNN "Voltage"
 F 5 "C0G" V 4390 4120 31  0000 R BNN "Material"
 F 6 "0402" V 4390 4180 31  0000 L BNN "Package"
 F 7 "33p" H 4410 4110 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    4400 4150
 	1    0    0    -1  
 $EndComp
@@ -634,6 +642,7 @@ F 4 "16V" H 3910 1090 39  0000 L TNN "Voltage"
 F 5 "X7R" V 3890 1170 31  0000 R BNN "Material"
 F 6 "0402" V 3890 1230 31  0000 L BNN "Package"
 F 7 "100n" H 3910 1160 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    3900 1200
 	1    0    0    -1  
 $EndComp
@@ -649,6 +658,7 @@ F 4 "16V" H 3660 1090 39  0000 L TNN "Voltage"
 F 5 "X7R" V 3640 1170 31  0000 R BNN "Material"
 F 6 "0805" V 3640 1230 31  0000 L BNN "Package"
 F 7 "10u" H 3660 1160 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    3650 1200
 	1    0    0    -1  
 $EndComp
@@ -744,6 +754,7 @@ F 4 "16V" H 5060 1090 39  0000 L TNN "Voltage"
 F 5 "X7R" V 5040 1170 31  0000 R BNN "Material"
 F 6 "0402" V 5040 1230 31  0000 L BNN "Package"
 F 7 "100n" H 5060 1160 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    5050 1200
 	1    0    0    -1  
 $EndComp
@@ -818,6 +829,7 @@ F 4 "16V" H 10460 1190 39  0000 L TNN "Voltage"
 F 5 "X7R" V 10440 1270 31  0000 R BNN "Material"
 F 6 "0402" V 10440 1330 31  0000 L BNN "Package"
 F 7 "100n" H 10460 1260 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    10450 1300
 	1    0    0    -1  
 $EndComp
@@ -1037,6 +1049,7 @@ F 4 "16V" H 6560 3540 39  0000 L TNN "Voltage"
 F 5 "X7R" V 6540 3620 31  0000 R BNN "Material"
 F 6 "0402" V 6540 3680 31  0000 L BNN "Package"
 F 7 "100n" H 6560 3610 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    6550 3650
 	1    0    0    -1  
 $EndComp
@@ -1052,6 +1065,7 @@ F 4 "16V" H 6260 3540 39  0000 L TNN "Voltage"
 F 5 "X7R" V 6240 3620 31  0000 R BNN "Material"
 F 6 "0402" V 6240 3680 31  0000 L BNN "Package"
 F 7 "100n" H 6260 3610 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    6250 3650
 	1    0    0    -1  
 $EndComp
@@ -1067,6 +1081,7 @@ F 4 "16V" H 5960 3540 39  0000 L TNN "Voltage"
 F 5 "X7R" V 5940 3620 31  0000 R BNN "Material"
 F 6 "0805" V 5940 3680 31  0000 L BNN "Package"
 F 7 "10u" H 5960 3610 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    5950 3650
 	1    0    0    -1  
 $EndComp
@@ -1098,6 +1113,7 @@ F 4 "50V" V 7160 3920 39  0000 R TNN "Voltage"
 F 5 "C0G" V 7140 3920 31  0000 R BNN "Material"
 F 6 "0402" V 7100 3920 31  0000 R BNN "Package"
 F 7 "12p" V 7160 3980 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    7150 3950
 	0    1    1    0   
 $EndComp
@@ -1113,6 +1129,7 @@ F 4 "50V" V 7160 3620 39  0000 R TNN "Voltage"
 F 5 "C0G" V 7140 3620 31  0000 R BNN "Material"
 F 6 "0402" V 7100 3620 31  0000 R BNN "Package"
 F 7 "12p" V 7160 3680 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    7150 3650
 	0    1    1    0   
 $EndComp
@@ -1231,6 +1248,7 @@ F 4 "16V" H 6610 1690 39  0000 L TNN "Voltage"
 F 5 "X7R" V 6590 1770 31  0000 R BNN "Material"
 F 6 "0402" V 6590 1830 31  0000 L BNN "Package"
 F 7 "100n" H 6610 1760 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    6600 1800
 	1    0    0    -1  
 $EndComp
@@ -1539,6 +1557,7 @@ F 4 "50V" H 9660 3540 39  0000 L TNN "Voltage"
 F 5 "C0G" V 9640 3620 31  0000 R BNN "Material"
 F 6 "0402" V 9640 3680 31  0000 L BNN "Package"
 F 7 "33p" H 9660 3610 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    9650 3650
 	1    0    0    -1  
 $EndComp
@@ -1554,6 +1573,7 @@ F 4 "50V" H 9910 3540 39  0000 L TNN "Voltage"
 F 5 "C0G" V 9890 3620 31  0000 R BNN "Material"
 F 6 "0402" V 9890 3680 31  0000 L BNN "Package"
 F 7 "33p" H 9910 3610 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    9900 3650
 	1    0    0    -1  
 $EndComp
@@ -1859,6 +1879,7 @@ F 4 "16V" H 3960 6240 39  0000 L TNN "Voltage"
 F 5 "X7R" V 3940 6320 31  0000 R BNN "Material"
 F 6 "0805" V 3940 6380 31  0000 L BNN "Package"
 F 7 "10u" H 3960 6310 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    3950 6350
 	1    0    0    -1  
 $EndComp
@@ -1874,6 +1895,7 @@ F 4 "16V" H 3660 6240 39  0000 L TNN "Voltage"
 F 5 "X7R" V 3640 6320 31  0000 R BNN "Material"
 F 6 "0402" V 3640 6380 31  0000 L BNN "Package"
 F 7 "100n" H 3660 6310 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    3650 6350
 	1    0    0    -1  
 $EndComp
@@ -1889,6 +1911,7 @@ F 4 "16V" H 3360 6240 39  0000 L TNN "Voltage"
 F 5 "X7R" V 3340 6320 31  0000 R BNN "Material"
 F 6 "0402" V 3340 6380 31  0000 L BNN "Package"
 F 7 "100n" H 3360 6310 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    3350 6350
 	1    0    0    -1  
 $EndComp
@@ -2079,6 +2102,7 @@ F 4 "16V" H 6560 6090 39  0000 L TNN "Voltage"
 F 5 "X7R" V 6540 6170 31  0000 R BNN "Material"
 F 6 "0805" V 6540 6230 31  0000 L BNN "Package"
 F 7 "10u" H 6560 6160 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    6550 6200
 	1    0    0    -1  
 $EndComp
@@ -2094,6 +2118,7 @@ F 4 "16V" H 6260 6090 39  0000 L TNN "Voltage"
 F 5 "X7R" V 6240 6170 31  0000 R BNN "Material"
 F 6 "0402" V 6240 6230 31  0000 L BNN "Package"
 F 7 "100n" H 6260 6160 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    6250 6200
 	1    0    0    -1  
 $EndComp
@@ -2282,6 +2307,7 @@ F 4 "16V" H 1160 6390 39  0000 L TNN "Voltage"
 F 5 "X7R" V 1140 6470 31  0000 R BNN "Material"
 F 6 "0402" V 1140 6530 31  0000 L BNN "Package"
 F 7 "100n" H 1160 6460 50  0000 L TNN "Capacitance"
+F 8 "Samsung Electro Mechanics" H 0   0   50  0001 C CNN "MFR"
 	1    1150 6500
 	1    0    0    -1  
 $EndComp

@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>E:\Arbeitsplatz\Projektarbeit\P00_ThreadControl\C02_DisplayControl\P00_C02_H00_DisplayControl\P00_C02_H00_DisplayControl.sch</source>
-    <date>17.04.2020 11:16:03</date>
+    <date>18.04.2020 18:09:24</date>
     <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,7 +25,7 @@
       <fields>
         <field name="MFR">FTDI</field>
       </fields>
-      <libsource lib="" part="FT230XS" description=""/>
+      <libsource lib="interface-ic" part="FT230XS" description="USB Interface IC; 2.97V to 5.5V; -40°C to 85°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E83DA37</tstamp>
     </comp>
@@ -35,7 +35,7 @@
       <fields>
         <field name="MFR">Diodes</field>
       </fields>
-      <libsource lib="" part="AP2139AK-3.3" description=""/>
+      <libsource lib="voltage-regulator" part="AP2139AK-3.3" description="Fixed 3.3V LDO Regulator; 250mA; 2.5V to 6V; -40°C to 85°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E84D210</tstamp>
     </comp>
@@ -45,7 +45,7 @@
       <fields>
         <field name="MFR">Samtec</field>
       </fields>
-      <libsource lib="" part="FTSH-105-01-F-DV-K" description=""/>
+      <libsource lib="connector" part="FTSH-105-01-F-DV-K" description="10pos 1.27mm Connector; Key Shroud;"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E854444</tstamp>
     </comp>
@@ -55,7 +55,7 @@
       <fields>
         <field name="MFR">Nexperia</field>
       </fields>
-      <libsource lib="" part="PRTR5V0U2F" description=""/>
+      <libsource lib="circuit-protection" part="PRTR5V0U2F" description="ESD-Supressor; Ultra Low Capacitance; -40°C to +85°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E85A3EA</tstamp>
     </comp>
@@ -65,7 +65,7 @@
       <fields>
         <field name="MFR">Nexperia</field>
       </fields>
-      <libsource lib="" part="BC847B,215" description=""/>
+      <libsource lib="transistor" part="BC847B,215" description="NPN Bipolar Transistor; 45V; 100mA; 250mW; -65°C to +150°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E891CF6</tstamp>
     </comp>
@@ -76,7 +76,7 @@
         <field name="Color">Red</field>
         <field name="MFR">Dialight</field>
       </fields>
-      <libsource lib="" part="599-0110-007F" description=""/>
+      <libsource lib="led" part="599-0110-007F" description="Standard LED; Red; 0805"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E89E8D5</tstamp>
     </comp>
@@ -87,7 +87,7 @@
         <field name="Color">Green</field>
         <field name="MFR">Dialight</field>
       </fields>
-      <libsource lib="" part="599-0181-007F" description=""/>
+      <libsource lib="led" part="599-0181-007F" description="Standard LED; Green; 0805"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E89EF7B</tstamp>
     </comp>
@@ -97,7 +97,7 @@
       <fields>
         <field name="MFR">STMicroelectronics</field>
       </fields>
-      <libsource lib="" part="SMA4F5.0A" description=""/>
+      <libsource lib="circuit-protection" part="SMA4F5.0A" description="5V TVS Diode; 400W; Unidirectional; -55°C to +175°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B2473</tstamp>
     </comp>
@@ -110,7 +110,7 @@
         <field name="MFR">Taiyo Yuden</field>
         <field name="Package">0402</field>
       </fields>
-      <libsource lib="" part="BK1005HS102" description=""/>
+      <libsource lib="ferrite-bead" part="BK1005HS102" description="Ferrite Bead; 1k@100MHz; 0.3A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8D4CFD</tstamp>
     </comp>
@@ -123,7 +123,7 @@
         <field name="MFR">TDK</field>
         <field name="Package">0603</field>
       </fields>
-      <libsource lib="" part="MPZ1608S601A" description=""/>
+      <libsource lib="ferrite-bead" part="MPZ1608S601A" description="Ferrite Bead; 600R@100MHz; 1A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8D53BC</tstamp>
     </comp>
@@ -132,11 +132,12 @@
       <footprint>capacitor:C0805</footprint>
       <fields>
         <field name="Capacitance">10u</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0805</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL21B106KOQNNNE" description=""/>
+      <libsource lib="capacitor" part="CL21B106KOQNNNE" description="Ceramic Capacitor; 10uF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E88665F</tstamp>
     </comp>
@@ -148,7 +149,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">33</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0733RL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0733RL" description="Thick Film Resistor; 33R; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E88BCA8</tstamp>
     </comp>
@@ -160,7 +161,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">33</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0733RL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0733RL" description="Thick Film Resistor; 33R; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E88D4AD</tstamp>
     </comp>
@@ -169,11 +170,12 @@
       <footprint>capacitor:C0805</footprint>
       <fields>
         <field name="Capacitance">10u</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0805</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL21B106KOQNNNE" description=""/>
+      <libsource lib="capacitor" part="CL21B106KOQNNNE" description="Ceramic Capacitor; 10uF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E88F1B0</tstamp>
     </comp>
@@ -182,11 +184,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8912A4</tstamp>
     </comp>
@@ -195,11 +198,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8B00AC</tstamp>
     </comp>
@@ -208,11 +212,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E908721</tstamp>
     </comp>
@@ -221,11 +226,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E96F3FB</tstamp>
     </comp>
@@ -234,11 +240,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">33p</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">C0G</field>
         <field name="Package">0402</field>
         <field name="Voltage">50V</field>
       </fields>
-      <libsource lib="" part="CL05C330JB5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05C330JB5NNNC" description="Ceramic Capacitor; 33p; C0G"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E9906FC</tstamp>
     </comp>
@@ -247,11 +254,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">33p</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">C0G</field>
         <field name="Package">0402</field>
         <field name="Voltage">50V</field>
       </fields>
-      <libsource lib="" part="CL05C330JB5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05C330JB5NNNC" description="Ceramic Capacitor; 33p; C0G"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E9948B8</tstamp>
     </comp>
@@ -263,7 +271,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">33</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0733RL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0733RL" description="Thick Film Resistor; 33R; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E98CCC5</tstamp>
     </comp>
@@ -275,7 +283,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">33</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0733RL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0733RL" description="Thick Film Resistor; 33R; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E98D6C6</tstamp>
     </comp>
@@ -284,11 +292,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E9D59BB</tstamp>
     </comp>
@@ -297,11 +306,12 @@
       <footprint>capacitor:C0805</footprint>
       <fields>
         <field name="Capacitance">10u</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0805</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL21B106KOQNNNE" description=""/>
+      <libsource lib="capacitor" part="CL21B106KOQNNNE" description="Ceramic Capacitor; 10uF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E9D654A</tstamp>
     </comp>
@@ -314,7 +324,7 @@
         <field name="MFR">Taiyo Yuden</field>
         <field name="Package">0402</field>
       </fields>
-      <libsource lib="" part="BK1005HS102" description=""/>
+      <libsource lib="ferrite-bead" part="BK1005HS102" description="Ferrite Bead; 1k@100MHz; 0.3A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E9DC4AB</tstamp>
     </comp>
@@ -323,11 +333,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EA4387D</tstamp>
     </comp>
@@ -336,11 +347,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EBEB972</tstamp>
     </comp>
@@ -350,7 +362,7 @@
       <fields>
         <field name="MFR">Nexperia</field>
       </fields>
-      <libsource lib="" part="PRTR5V0U2F" description=""/>
+      <libsource lib="circuit-protection" part="PRTR5V0U2F" description="ESD-Supressor; Ultra Low Capacitance; -40°C to +85°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EC0FBD0</tstamp>
     </comp>
@@ -362,7 +374,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">33</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0733RL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0733RL" description="Thick Film Resistor; 33R; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EC1537D</tstamp>
     </comp>
@@ -374,7 +386,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">33</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0733RL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0733RL" description="Thick Film Resistor; 33R; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EC15B64</tstamp>
     </comp>
@@ -386,7 +398,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">10k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0710KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0710KL" description="Thick Film Resistor; 10k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EAC65B4</tstamp>
     </comp>
@@ -398,7 +410,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">10k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0710KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0710KL" description="Thick Film Resistor; 10k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EBA84B5</tstamp>
     </comp>
@@ -411,7 +423,7 @@
         <field name="MFR">Taiyo Yuden</field>
         <field name="Package">0402</field>
       </fields>
-      <libsource lib="" part="BK1005HS102" description=""/>
+      <libsource lib="ferrite-bead" part="BK1005HS102" description="Ferrite Bead; 1k@100MHz; 0.3A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EB67CDB</tstamp>
     </comp>
@@ -420,11 +432,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EB1E1B2</tstamp>
     </comp>
@@ -433,11 +446,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EB01F21</tstamp>
     </comp>
@@ -446,11 +460,12 @@
       <footprint>capacitor:C0805</footprint>
       <fields>
         <field name="Capacitance">10u</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0805</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL21B106KOQNNNE" description=""/>
+      <libsource lib="capacitor" part="CL21B106KOQNNNE" description="Ceramic Capacitor; 10uF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EB017A6</tstamp>
     </comp>
@@ -459,11 +474,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">12p</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">C0G</field>
         <field name="Package">0402</field>
         <field name="Voltage">50V</field>
       </fields>
-      <libsource lib="" part="CL05C120JB5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05C120JB5NNNC" description="Ceramic Capacitor; 12p; C0G"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EAB080F</tstamp>
     </comp>
@@ -472,11 +488,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">12p</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">C0G</field>
         <field name="Package">0402</field>
         <field name="Voltage">50V</field>
       </fields>
-      <libsource lib="" part="CL05C120JB5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05C120JB5NNNC" description="Ceramic Capacitor; 12p; C0G"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EA9DCEF</tstamp>
     </comp>
@@ -487,7 +504,7 @@
         <field name="Frequency">16MHz</field>
         <field name="MFR">ECS</field>
       </fields>
-      <libsource lib="" part="ECS-160-8-30Q-VY" description=""/>
+      <libsource lib="crystal" part="ECS-160-8-30Q-VY" description="Crystal; 16MHz; 8pF Load Capacitance; +-30ppm@25°C; -40°C to 150°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E84D839</tstamp>
     </comp>
@@ -499,7 +516,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">10k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0710KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0710KL" description="Thick Film Resistor; 10k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8E207F</tstamp>
     </comp>
@@ -511,7 +528,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">10k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0710KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0710KL" description="Thick Film Resistor; 10k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8E481A</tstamp>
     </comp>
@@ -524,7 +541,7 @@
         <field name="MFR">Taiyo Yuden</field>
         <field name="Package">0402</field>
       </fields>
-      <libsource lib="" part="BK1005HS102" description=""/>
+      <libsource lib="ferrite-bead" part="BK1005HS102" description="Ferrite Bead; 1k@100MHz; 0.3A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E912594</tstamp>
     </comp>
@@ -533,11 +550,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E912C28</tstamp>
     </comp>
@@ -547,7 +565,7 @@
       <fields>
         <field name="MFR">Nexperia</field>
       </fields>
-      <libsource lib="" part="BC847B,215" description=""/>
+      <libsource lib="transistor" part="BC847B,215" description="NPN Bipolar Transistor; 45V; 100mA; 250mW; -65°C to +150°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E9F5A73</tstamp>
     </comp>
@@ -559,7 +577,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">10k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0710KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0710KL" description="Thick Film Resistor; 10k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E9F5A84</tstamp>
     </comp>
@@ -571,7 +589,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">10k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0710KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0710KL" description="Thick Film Resistor; 10k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E9F5A8D</tstamp>
     </comp>
@@ -583,7 +601,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">10k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0710KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0710KL" description="Thick Film Resistor; 10k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EAAF9D3</tstamp>
     </comp>
@@ -593,7 +611,7 @@
       <fields>
         <field name="MFR">Nexperia</field>
       </fields>
-      <libsource lib="" part="BC847B,215" description=""/>
+      <libsource lib="transistor" part="BC847B,215" description="NPN Bipolar Transistor; 45V; 100mA; 250mW; -65°C to +150°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EB22954</tstamp>
     </comp>
@@ -605,7 +623,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">2k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-072KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-072KL" description="Thick Film Resistor; 2k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EB3573C</tstamp>
     </comp>
@@ -617,7 +635,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">220</field>
       </fields>
-      <libsource lib="" part="RC0402FR-07220RL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-07220RL" description="Thick Film Resistor; 220R; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EBDF83A</tstamp>
     </comp>
@@ -629,7 +647,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">220</field>
       </fields>
-      <libsource lib="" part="RC0402FR-07220RL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-07220RL" description="Thick Film Resistor; 220R; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EBF811D</tstamp>
     </comp>
@@ -638,11 +656,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">33p</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">C0G</field>
         <field name="Package">0402</field>
         <field name="Voltage">50V</field>
       </fields>
-      <libsource lib="" part="CL05C330JB5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05C330JB5NNNC" description="Ceramic Capacitor; 33p; C0G"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EC5F4E0</tstamp>
     </comp>
@@ -651,11 +670,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">33p</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">C0G</field>
         <field name="Package">0402</field>
         <field name="Voltage">50V</field>
       </fields>
-      <libsource lib="" part="CL05C330JB5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05C330JB5NNNC" description="Ceramic Capacitor; 33p; C0G"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EC5F4EA</tstamp>
     </comp>
@@ -667,7 +687,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">33</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0733RL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0733RL" description="Thick Film Resistor; 33R; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EC5F507</tstamp>
     </comp>
@@ -679,7 +699,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">33</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0733RL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0733RL" description="Thick Film Resistor; 33R; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EC5F510</tstamp>
     </comp>
@@ -691,7 +711,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">10k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0710KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0710KL" description="Thick Film Resistor; 10k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F4C2605</tstamp>
     </comp>
@@ -703,7 +723,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">10k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0710KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0710KL" description="Thick Film Resistor; 10k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F066E51</tstamp>
     </comp>
@@ -713,7 +733,7 @@
       <fields>
         <field name="MFR">STMicroelectronics</field>
       </fields>
-      <libsource lib="" part="VL53L0X" description=""/>
+      <libsource lib="sensor" part="VL53L0X" description="Proximity (TOF) Sensor; I2C Interface; 2.6V to 3.5V; -20°C to 75°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF2C753</tstamp>
     </comp>
@@ -722,11 +742,12 @@
       <footprint>capacitor:C0805</footprint>
       <fields>
         <field name="Capacitance">10u</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0805</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL21B106KOQNNNE" description=""/>
+      <libsource lib="capacitor" part="CL21B106KOQNNNE" description="Ceramic Capacitor; 10uF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E929141</tstamp>
     </comp>
@@ -735,11 +756,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E9289AF</tstamp>
     </comp>
@@ -748,11 +770,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E928269</tstamp>
     </comp>
@@ -765,7 +788,7 @@
         <field name="MFR">Taiyo Yuden</field>
         <field name="Package">0402</field>
       </fields>
-      <libsource lib="" part="BK1005HS102" description=""/>
+      <libsource lib="ferrite-bead" part="BK1005HS102" description="Ferrite Bead; 1k@100MHz; 0.3A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E927B3E</tstamp>
     </comp>
@@ -777,7 +800,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">2k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-072KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-072KL" description="Thick Film Resistor; 2k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E8F6834</tstamp>
     </comp>
@@ -790,7 +813,7 @@
         <field name="MFR">Taiyo Yuden</field>
         <field name="Package">0402</field>
       </fields>
-      <libsource lib="" part="BK1005HS102" description=""/>
+      <libsource lib="ferrite-bead" part="BK1005HS102" description="Ferrite Bead; 1k@100MHz; 0.3A"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ED37824</tstamp>
     </comp>
@@ -799,11 +822,12 @@
       <footprint>capacitor:C0805</footprint>
       <fields>
         <field name="Capacitance">10u</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0805</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL21B106KOQNNNE" description=""/>
+      <libsource lib="capacitor" part="CL21B106KOQNNNE" description="Ceramic Capacitor; 10uF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ECFD670</tstamp>
     </comp>
@@ -812,11 +836,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ECFD0A7</tstamp>
     </comp>
@@ -826,7 +851,7 @@
       <fields>
         <field name="MFR">Vishay</field>
       </fields>
-      <libsource lib="" part="VEML6030" description=""/>
+      <libsource lib="sensor" part="VEML6030" description="Ambient Light Sensor; I2C Interface; 2.5V to 3.6V; -25°C to 85°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E83F1A8</tstamp>
     </comp>
@@ -838,7 +863,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">10k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0710KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0710KL" description="Thick Film Resistor; 10k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E99B980</tstamp>
     </comp>
@@ -850,7 +875,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">10k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-0710KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-0710KL" description="Thick Film Resistor; 10k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EA0964B</tstamp>
     </comp>
@@ -860,7 +885,7 @@
       <fields>
         <field name="MFR">Würth Elektronik</field>
       </fields>
-      <libsource lib="" part="629105150921" description=""/>
+      <libsource lib="connector" part="629105150921" description="Micro USB Type AB; Horizontal; -40°C to 85°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EABA6D9</tstamp>
     </comp>
@@ -872,7 +897,7 @@
         <field name="Package">0402</field>
         <field name="Resistance">2k</field>
       </fields>
-      <libsource lib="" part="RC0402FR-072KL" description=""/>
+      <libsource lib="resistor" part="RC0402FR-072KL" description="Thick Film Resistor; 2k; 1%; 50V; 0.0625W"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EE30D09</tstamp>
     </comp>
@@ -881,11 +906,12 @@
       <footprint>capacitor:C0402</footprint>
       <fields>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Voltage">16V</field>
       </fields>
-      <libsource lib="" part="CL05B104KO5NNNC" description=""/>
+      <libsource lib="capacitor" part="CL05B104KO5NNNC" description="Ceramic Capacitor; 100nF; X7R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E95C7D8</tstamp>
     </comp>
@@ -895,72 +921,81 @@
       <fields>
         <field name="MFR">STMicroelectronics</field>
       </fields>
-      <libsource lib="" part="STM32F030F4P6" description=""/>
+      <libsource lib="microcontroller" part="STM32F030F4P6" description="Cortex-M0 Microcontroller; max. 48MHz; 16kB Flash; 4kB RAM; 2.4V to 3.6V; -40°C to 85°C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EAEC8D8</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="" part="capacitor_CL05B104KO5NNNC">
+    <libpart lib="capacitor" part="CL05B104KO5NNNC">
+      <description>Ceramic Capacitor; 100nF; X7R</description>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">capacitor_CL05B104KO5NNNC</field>
+        <field name="Value">CL05B104KO5NNNC</field>
         <field name="Voltage">16V</field>
         <field name="Material">X7R</field>
         <field name="Package">0402</field>
         <field name="Capacitance">100n</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="capacitor_CL05C120JB5NNNC">
+    <libpart lib="capacitor" part="CL05C120JB5NNNC">
+      <description>Ceramic Capacitor; 12p; C0G</description>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">capacitor_CL05C120JB5NNNC</field>
+        <field name="Value">CL05C120JB5NNNC</field>
         <field name="Voltage">50V</field>
         <field name="Material">C0G</field>
         <field name="Package">0402</field>
         <field name="Capacitance">12p</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="capacitor_CL05C330JB5NNNC">
+    <libpart lib="capacitor" part="CL05C330JB5NNNC">
+      <description>Ceramic Capacitor; 33p; C0G</description>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">capacitor_CL05C330JB5NNNC</field>
+        <field name="Value">CL05C330JB5NNNC</field>
         <field name="Voltage">50V</field>
         <field name="Material">C0G</field>
         <field name="Package">0402</field>
         <field name="Capacitance">33p</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="capacitor_CL21B106KOQNNNE">
+    <libpart lib="capacitor" part="CL21B106KOQNNNE">
+      <description>Ceramic Capacitor; 10uF; X7R</description>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">capacitor_CL21B106KOQNNNE</field>
+        <field name="Value">CL21B106KOQNNNE</field>
         <field name="Voltage">16V</field>
         <field name="Material">X7R</field>
         <field name="Package">0805</field>
         <field name="Capacitance">10u</field>
+        <field name="MFR">Samsung Electro Mechanics</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="circuit-protection_PRTR5V0U2F">
+    <libpart lib="circuit-protection" part="PRTR5V0U2F">
+      <description>ESD-Supressor; Ultra Low Capacitance; -40°C to +85°C</description>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">circuit-protection_PRTR5V0U2F</field>
+        <field name="Value">PRTR5V0U2F</field>
         <field name="MFR">Nexperia</field>
       </fields>
       <pins>
@@ -972,10 +1007,11 @@
         <pin num="6" name="6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="circuit-protection_SMA4F5.0A">
+    <libpart lib="circuit-protection" part="SMA4F5.0A">
+      <description>5V TVS Diode; 400W; Unidirectional; -55°C to +175°C</description>
       <fields>
         <field name="Reference">D</field>
-        <field name="Value">circuit-protection_SMA4F5.0A</field>
+        <field name="Value">SMA4F5.0A</field>
         <field name="MFR">STMicroelectronics</field>
       </fields>
       <pins>
@@ -983,10 +1019,11 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="connector_629105150921">
+    <libpart lib="connector" part="629105150921">
+      <description>Micro USB Type AB; Horizontal; -40°C to 85°C</description>
       <fields>
         <field name="Reference">X</field>
-        <field name="Value">connector_629105150921</field>
+        <field name="Value">629105150921</field>
         <field name="MFR">Würth Elektronik</field>
       </fields>
       <pins>
@@ -997,10 +1034,11 @@
         <pin num="5" name="GND" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="connector_FTSH-105-01-F-DV-K">
+    <libpart lib="connector" part="FTSH-105-01-F-DV-K">
+      <description>10pos 1.27mm Connector; Key Shroud;</description>
       <fields>
         <field name="Reference">X</field>
-        <field name="Value">connector_FTSH-105-01-F-DV-K</field>
+        <field name="Value">FTSH-105-01-F-DV-K</field>
         <field name="MFR">Samtec</field>
       </fields>
       <pins>
@@ -1016,10 +1054,11 @@
         <pin num="10" name="10" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="crystal_ECS-160-8-30Q-VY">
+    <libpart lib="crystal" part="ECS-160-8-30Q-VY">
+      <description>Crystal; 16MHz; 8pF Load Capacitance; +-30ppm@25°C; -40°C to 150°C</description>
       <fields>
         <field name="Reference">Q</field>
-        <field name="Value">crystal_ECS-160-8-30Q-VY</field>
+        <field name="Value">ECS-160-8-30Q-VY</field>
         <field name="Frequency">16MHz</field>
         <field name="MFR">ECS</field>
       </fields>
@@ -1028,10 +1067,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="ferrite-bead_BK1005HS102">
+    <libpart lib="ferrite-bead" part="BK1005HS102">
+      <description>Ferrite Bead; 1k@100MHz; 0.3A</description>
       <fields>
         <field name="Reference">FB</field>
-        <field name="Value">ferrite-bead_BK1005HS102</field>
+        <field name="Value">BK1005HS102</field>
         <field name="Package">0402</field>
         <field name="Impedance">1k</field>
         <field name="Current">0.3A</field>
@@ -1042,10 +1082,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="ferrite-bead_MPZ1608S601A">
+    <libpart lib="ferrite-bead" part="MPZ1608S601A">
+      <description>Ferrite Bead; 600R@100MHz; 1A</description>
       <fields>
         <field name="Reference">FB</field>
-        <field name="Value">ferrite-bead_MPZ1608S601A</field>
+        <field name="Value">MPZ1608S601A</field>
         <field name="Package">0603</field>
         <field name="Impedance">600R</field>
         <field name="Current">1A</field>
@@ -1056,10 +1097,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="interface-ic_FT230XS">
+    <libpart lib="interface-ic" part="FT230XS">
+      <description>USB Interface IC; 2.97V to 5.5V; -40°C to 85°C</description>
       <fields>
         <field name="Reference">IC</field>
-        <field name="Value">interface-ic_FT230XS</field>
+        <field name="Value">FT230XS</field>
         <field name="MFR">FTDI</field>
       </fields>
       <pins>
@@ -1081,10 +1123,11 @@
         <pin num="16" name="CBUS3" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="" part="led_599-0110-007F">
+    <libpart lib="led" part="599-0110-007F">
+      <description>Standard LED; Red; 0805</description>
       <fields>
         <field name="Reference">LED</field>
-        <field name="Value">led_599-0110-007F</field>
+        <field name="Value">599-0110-007F</field>
         <field name="Color">Red</field>
         <field name="MFR">Dialight</field>
       </fields>
@@ -1093,10 +1136,11 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="led_599-0181-007F">
+    <libpart lib="led" part="599-0181-007F">
+      <description>Standard LED; Green; 0805</description>
       <fields>
         <field name="Reference">LED</field>
-        <field name="Value">led_599-0181-007F</field>
+        <field name="Value">599-0181-007F</field>
         <field name="Color">Green</field>
         <field name="MFR">Dialight</field>
       </fields>
@@ -1105,10 +1149,11 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="microcontroller_STM32F030F4P6">
+    <libpart lib="microcontroller" part="STM32F030F4P6">
+      <description>Cortex-M0 Microcontroller; max. 48MHz; 16kB Flash; 4kB RAM; 2.4V to 3.6V; -40°C to 85°C</description>
       <fields>
         <field name="Reference">IC</field>
-        <field name="Value">microcontroller_STM32F030F4P6</field>
+        <field name="Value">STM32F030F4P6</field>
         <field name="MFR">STMicroelectronics</field>
       </fields>
       <pins>
@@ -1134,10 +1179,11 @@
         <pin num="20" name="PA14" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="" part="resistor_RC0402FR-0710KL">
+    <libpart lib="resistor" part="RC0402FR-0710KL">
+      <description>Thick Film Resistor; 10k; 1%; 50V; 0.0625W</description>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">resistor_RC0402FR-0710KL</field>
+        <field name="Value">RC0402FR-0710KL</field>
         <field name="Package">0402</field>
         <field name="Resistance">10k</field>
         <field name="MFR">Yageo</field>
@@ -1147,10 +1193,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="resistor_RC0402FR-07220RL">
+    <libpart lib="resistor" part="RC0402FR-07220RL">
+      <description>Thick Film Resistor; 220R; 1%; 50V; 0.0625W</description>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">resistor_RC0402FR-07220RL</field>
+        <field name="Value">RC0402FR-07220RL</field>
         <field name="Package">0402</field>
         <field name="Resistance">220</field>
         <field name="MFR">Yageo</field>
@@ -1160,10 +1207,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="resistor_RC0402FR-072KL">
+    <libpart lib="resistor" part="RC0402FR-072KL">
+      <description>Thick Film Resistor; 2k; 1%; 50V; 0.0625W</description>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">resistor_RC0402FR-072KL</field>
+        <field name="Value">RC0402FR-072KL</field>
         <field name="Package">0402</field>
         <field name="Resistance">2k</field>
         <field name="MFR">Yageo</field>
@@ -1173,10 +1221,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="resistor_RC0402FR-0733RL">
+    <libpart lib="resistor" part="RC0402FR-0733RL">
+      <description>Thick Film Resistor; 33R; 1%; 50V; 0.0625W</description>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">resistor_RC0402FR-0733RL</field>
+        <field name="Value">RC0402FR-0733RL</field>
         <field name="Package">0402</field>
         <field name="Resistance">33</field>
         <field name="MFR">Yageo</field>
@@ -1186,10 +1235,11 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="sensor_VEML6030">
+    <libpart lib="sensor" part="VEML6030">
+      <description>Ambient Light Sensor; I2C Interface; 2.5V to 3.6V; -25°C to 85°C</description>
       <fields>
         <field name="Reference">IC</field>
-        <field name="Value">sensor_VEML6030</field>
+        <field name="Value">VEML6030</field>
         <field name="MFR">Vishay</field>
       </fields>
       <pins>
@@ -1201,10 +1251,11 @@
         <pin num="6" name="VDD" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="" part="sensor_VL53L0X">
+    <libpart lib="sensor" part="VL53L0X">
+      <description>Proximity (TOF) Sensor; I2C Interface; 2.6V to 3.5V; -20°C to 75°C</description>
       <fields>
         <field name="Reference">IC</field>
-        <field name="Value">sensor_VL53L0X</field>
+        <field name="Value">VL53L0X</field>
         <field name="MFR">STMicroelectronics</field>
       </fields>
       <pins>
@@ -1222,10 +1273,11 @@
         <pin num="12" name="GND" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="" part="transistor_BC847B,215">
+    <libpart lib="transistor" part="BC847B,215">
+      <description>NPN Bipolar Transistor; 45V; 100mA; 250mW; -65°C to +150°C</description>
       <fields>
         <field name="Reference">T</field>
-        <field name="Value">transistor_BC847B,215</field>
+        <field name="Value">BC847B,215</field>
         <field name="MFR">Nexperia</field>
       </fields>
       <pins>
@@ -1234,10 +1286,11 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="" part="voltage-regulator_AP2139AK-3.3">
+    <libpart lib="voltage-regulator" part="AP2139AK-3.3">
+      <description>Fixed 3.3V LDO Regulator; 250mA; 2.5V to 6V; -40°C to 85°C</description>
       <fields>
         <field name="Reference">IC</field>
-        <field name="Value">voltage-regulator_AP2139AK-3.3</field>
+        <field name="Value">AP2139AK-3.3</field>
         <field name="MFR">Diodes</field>
       </fields>
       <pins>
@@ -1249,7 +1302,44 @@
       </pins>
     </libpart>
   </libparts>
-  <libraries/>
+  <libraries>
+    <library logical="capacitor">
+      <uri>E:\Arbeitsplatz\Projektarbeit/KiCADLIB/Symbols/capacitor.lib</uri>
+    </library>
+    <library logical="circuit-protection">
+      <uri>E:\Arbeitsplatz\Projektarbeit/KiCADLIB/Symbols/circuit-protection.lib</uri>
+    </library>
+    <library logical="connector">
+      <uri>E:\Arbeitsplatz\Projektarbeit/KiCADLIB/Symbols/connector.lib</uri>
+    </library>
+    <library logical="crystal">
+      <uri>E:\Arbeitsplatz\Projektarbeit/KiCADLIB/Symbols/crystal.lib</uri>
+    </library>
+    <library logical="ferrite-bead">
+      <uri>E:\Arbeitsplatz\Projektarbeit/KiCADLIB/Symbols/ferrite-bead.lib</uri>
+    </library>
+    <library logical="interface-ic">
+      <uri>E:\Arbeitsplatz\Projektarbeit/KiCADLIB/Symbols/interface-ic.lib</uri>
+    </library>
+    <library logical="led">
+      <uri>E:\Arbeitsplatz\Projektarbeit/KiCADLIB/Symbols/led.lib</uri>
+    </library>
+    <library logical="microcontroller">
+      <uri>E:\Arbeitsplatz\Projektarbeit/KiCADLIB/Symbols/microcontroller.lib</uri>
+    </library>
+    <library logical="resistor">
+      <uri>E:\Arbeitsplatz\Projektarbeit/KiCADLIB/Symbols/resistor.lib</uri>
+    </library>
+    <library logical="sensor">
+      <uri>E:\Arbeitsplatz\Projektarbeit/KiCADLIB/Symbols/sensor.lib</uri>
+    </library>
+    <library logical="transistor">
+      <uri>E:\Arbeitsplatz\Projektarbeit/KiCADLIB/Symbols/transistor.lib</uri>
+    </library>
+    <library logical="voltage-regulator">
+      <uri>E:\Arbeitsplatz\Projektarbeit/KiCADLIB/Symbols/voltage-regulator.lib</uri>
+    </library>
+  </libraries>
   <nets>
     <net code="1" name="Net-(C13-Pad1)">
       <node ref="C13" pin="1"/>

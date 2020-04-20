@@ -6,7 +6,7 @@ K Capacitor Ceramic
 $ENDCMP
 #
 $CMP CL05C120JB5NNNC
-D Ceramic Capacitor; 33p; C0G
+D Ceramic Capacitor; 12p; C0G
 K Capacitor Ceramic
 $ENDCMP
 #
